@@ -26,5 +26,5 @@ print ("type de texte: ",type(texte))
 # type de b:  <class 'float'>
 # type de c:  <class 'tuple'>
 # type de texte:  <class 'str'>
-
+#
 # Process finished with exit code 0
