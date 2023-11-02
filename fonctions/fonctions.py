@@ -66,20 +66,3 @@ else:
     print("Division par zéro ou au moins l'une des valeurs saisies n'est pas numérique.")
 
 
-# Fonction pour afficher la table de multiplication jusqu'à 10 pour une variable donnée
-def table_multiplication(variable):
-    if est_numerique(variable):
-        variable = float(variable)
-        for i in range(11):
-            resultat = variable * i
-            print(f"{variable} * {i} = {resultat}")
-    else:
-        print("La variable n'est pas numérique.")
-
-# Demander à l'utilisateur de saisir une variable numérique
-variable = input("Entrez une variable numérique : ")
-
-# Utiliser la fonction table_multiplication pour afficher la table de multiplication
-table_multiplication(variable)
-
-
